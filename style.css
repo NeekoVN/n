@@ -84,9 +84,10 @@ body{
     width: 60vw;
     height: 60vh;
     border-radius: 42px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     display: flex;
     gap: 0px;
+    backdrop-filter: blur(25px) saturate(150%);
 }
 .hmu-img{
     background: url("./Dai-Hoc-Y-Ha-Noi.jpg") no-repeat center;
