@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="aos.js"></script>
     <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="jquery.pagepiling.css">
+    <script src="jquery.pagepiling.min.js"></script>
 </head>
 <body>
     <div class="cont">
@@ -55,13 +57,26 @@
                 </div>
             </div>
         </section>
-        <section class="sect">c</section>
-        <section class="sect">d</section>
+        <section class="sect">
+            <div id="pagepiling">
+                <div class="section">culkimjnhf</div>
+                <div class="section">d</div>
+            </div>
+        </section>
         <section class="sect">e</section>
+        <section class="sect">f</section>
     </div>
     <script src="script.js"></script>
     <script>
         AOS.init();
+        $(document).ready(function() {
+	        $('#pagepiling').pagepiling({
+                scrollingSpeed: 300,
+                css3: true,
+                direction: 'horizontal',
+                navigation: false,
+            });
+        });
     </script>
 </body>
 </html>
