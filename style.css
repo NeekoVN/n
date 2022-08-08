@@ -80,6 +80,14 @@ body{
     font-size: 40px;
     color: #fff;
 }
+.sl3{
+    height: 100%;
+    overflow-x: scroll;
+}
+.sl3 ul{
+    list-style-type: none;
+    margin: 4rem auto;
+}
 .hmu{
     width: 60vw;
     height: 60vh;

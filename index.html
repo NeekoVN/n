@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="aos.js"></script>
     <link rel="stylesheet" href="aos.css">
-    <link rel="stylesheet" href="jquery.pagepiling.css">
-    <script src="jquery.pagepiling.min.js"></script>
+    <link rel="stylesheet" href="timeline.css">
 </head>
 <body>
     <div class="cont">
@@ -58,9 +57,41 @@
             </div>
         </section>
         <section class="sect">
-            <div id="pagepiling">
-                <div class="section">culkimjnhf</div>
-                <div class="section">d</div>
+            <div class="sl3">
+                <ul class="timeline">
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">Năm 1971</p>
+                        <h3>Bác sĩ</h3>
+                        <h4>Tại Bệnh viện Đa khoa Hương Sơn Hà Tĩnh</h4>
+                      </div>
+                    </li>
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">Năm 1973</p>
+                        <h3>Chủ nhiệm khoa ngoại</h3>
+                        <h4>Bệnh viện Đa khoa Hương Sơn Hà Tĩnh</h4>
+                      </div>
+                    </li>
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">Năm 1974</p>
+                        <h3>Phó Giám đốc</h3>
+                        <h4>Bệnh viện Đa khoa Hương Sơn Hà Tĩnh</h4>
+                      </div>
+                    </li>
+                    <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                          <p class="timeline-event-thumbnail">Năm 1980-1990</p>
+                          <h3>Giám đốc</h3>
+                          <h4>Bệnh viện Đa khoa Hương Sơn Hà Tĩnh</h4>
+                        </div>
+                      </li>
+                  </ul>  
             </div>
         </section>
         <section class="sect">e</section>
@@ -69,14 +100,6 @@
     <script src="script.js"></script>
     <script>
         AOS.init();
-        $(document).ready(function() {
-	        $('#pagepiling').pagepiling({
-                scrollingSpeed: 300,
-                css3: true,
-                direction: 'horizontal',
-                navigation: false,
-            });
-        });
     </script>
 </body>
 </html>
